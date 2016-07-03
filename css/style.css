@@ -66,6 +66,8 @@ header {
 
 .contacts li a {
     cursor: pointer;
+    text-decoration: none;
+    color: #128aa7;
 }
 
 .flags {
@@ -240,9 +242,13 @@ footer {
     color: white;
     font: 12px Tahoma;
     text-align: center;
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     right: 0;
     left: 0;
     margin-bottom: 10px;
+}
+.clearfix{
+    clear: both;
+    display: block;
 }
